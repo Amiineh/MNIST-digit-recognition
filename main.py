@@ -85,7 +85,6 @@ def Early_stopping(sess, writer):
             new_validation = ValidationAccuracy(sess, output, x, y)
             if new_validation > validation_acc_max:
                 validation_acc_max , W1_max , b1_max, W2_max, b2_max, epoch_max = new_validation, W1, b1, W2, b2, i
-            print epoch_max, validation_acc_max, i, new_validation
         if i > 500 + epoch_max:
             print "Early stopping..."
             W1, b1, W2, b2 = W1_max, b1_max, W2_max, b2_max,
