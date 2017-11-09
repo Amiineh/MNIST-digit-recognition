@@ -1,6 +1,8 @@
 # MNIST Digit Recognition
 This project is a Deep Learning task which takes a fully connected multi-layer Neural Netwok and trains it on [MNIST](http://yann.lecun.com/exdb/mnist/) dataset. It is implemented in Tensorboard, using Tensorboard for visualization.
 
+<p align="center"><img src="https://user-images.githubusercontent.com/19167068/32612287-2607c202-c57d-11e7-97b0-3a21918ffca2.png" width="400"/>
+
 The network has three different functions for training the network:
   * **Train**, e.i. normal training. 
   * **Early_Stopping**, that stops training if the validation accuracy stops increasing after a while.
@@ -13,5 +15,5 @@ The following parameters of the network were tested to obtain the optimum accura
   * **Number of hidden layers** in the range of \[5, 10, 20, 25\]
   
 You can see some of the results in the **log** folder.
-Screen
-![alt text](screenshots/graph.png)
+
+
