@@ -10,6 +10,8 @@ The following parameters of the network were tested to obtain the optimum accura
   * **Standard deviation of initial weights** in the range of \[0, 0.1, 0.3, 1, 2\]
   * **Size of the mini-batches** in the range of \[1, 10, 50, 100, 1000\]
   * **Learning rate** in the range of \[0.00001, 0.001, 0.1, 1, 10, 100, 1000\]
-  * **Number of hidden layers** in the range of \[5, 10, 20, 25\]  
+  * **Number of hidden layers** in the range of \[5, 10, 20, 25\]
+  
 You can see some of the results in the **log** folder.
 
+![alt text](Screen Shot 1396-08-18 at 17.40.55.png)
