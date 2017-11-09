@@ -5,14 +5,14 @@ This project is a Deep Learning task which takes a fully connected multi-layer N
 
 # Training functions
 The network has three different functions for training the network:
-  ## Train
+  ### Train
   Which trains the network normaly. 
-  ## Early_Stopping
+  ### Early_Stopping
   In this case, the network stops training if the validation accuracy stops increasing after a while.
   
   <p align="center"><img src="https://user-images.githubusercontent.com/19167068/32612297-28554520-c57d-11e7-8ca5-89df3e27c67f.png" width="500">
  
-  ## 5_fold_CV
+  ### 5_fold_CV
   This function folds the data into 5 sections and uses one of the foldings as validation set each time. In the end, it averages the result over all of the folds.
 
 # Parameters
