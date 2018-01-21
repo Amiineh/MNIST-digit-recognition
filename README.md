@@ -15,7 +15,7 @@ The network has three different functions for training the network:
   ### 5_fold_CV
   This function folds the data into 5 sections and uses one of the foldings as validation set each time. In the end, it averages the result over all of the folds.
 
-# Parameters
+# Hyperparameters
 The following parameters of the network were tested to obtain the optimum accuracy:
   ## Standard Deviation of Initial Weights
   in the range of \[0, 0.1, 0.3, 1, 2\]  
@@ -53,7 +53,7 @@ The following parameters of the network were tested to obtain the optimum accura
   <p align="center"><img src="https://user-images.githubusercontent.com/19167068/32612294-282b1340-c57d-11e7-9b60-fb961cdffc30.png" width="500">
   
   ## Hidden Layer
-  Number of hidden layers change in the range of \[5, 10, 20, 25\]. The result is evaluated with the **5_fold_CV** function explained above.
+  Size of the hidden layer change in the range of \[5, 10, 20, 25\]. The result is evaluated with the **5_fold_CV** function explained above.
   
   ```
   hidden layer size = 5
